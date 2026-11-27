@@ -1,0 +1,16 @@
+[package]
+name = "tirgumim_proxy"
+version = "0.1.0"
+edition = "2021"
+description = "Tirgumim: launcher-only file redirect proxy DLL (inert unless TIRGUMIM_LANG=he)"
+license = "MIT"
+build = "build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = "s"
+panic = "abort"
+lto = true

@@ -1,0 +1,18 @@
+{
+  "packId": "football-manager-27-he",
+  "gameId": "football-manager-27",
+  "version": "0.1.0",
+  "title": "Football Manager 27 – עברית",
+  "authors": ["Tirgumim"],
+  "engine": "unity",
+  "requiresAccount": false,
+  "allowUnknownGameVersion": true,
+  "activation": { "mode": "args", "exe": "fm.exe", "args": ["-tirgumim_he"], "via": "steam" },
+  "filesDir": "../work/pack/files",
+  "patches": [
+    { "path": "fm_Data/StreamingAssets/aa/StandaloneWindows64/ui-fonts_assets_production.bundle", "patched": "../work/build/ui-fonts_assets_production_he.bundle", "output": "tirgumim/he/ui-fonts_assets_production_he.bundle" },
+    { "path": "fm_Data/StreamingAssets/aa/StandaloneWindows64/ui-styles_assets_common.bundle", "patched": "../work/build/ui-styles_assets_common_he.bundle", "output": "tirgumim/he/ui-styles_assets_common_he.bundle" },
+    { "path": "fm_Data/StreamingAssets/aa/StandaloneWindows64/ui-styles_assets_default.bundle", "patched": "../work/build/ui-styles_assets_default_he.bundle", "output": "tirgumim/he/ui-styles_assets_default_he.bundle" },
+    { "path": "shared/data/database/db/2700/2700_fm/lang_db.dat", "patched": "../work/build/lang_db_he.dat", "output": "tirgumim/he/lang_db_he.dat" }
+  ]
+}

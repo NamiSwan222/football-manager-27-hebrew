@@ -1,0 +1,15 @@
+# work/ is local: the English regenerated from the player's install (work/en by tools/extract.py,
+# work/dbnames/todo and scope.json by tools/dbnames_scope.py), translator batches, builds and tests.
+# Only our own docs and the merged-batch list are tracked; the Hebrew lives in translation/he/.
+work/*
+!work/TRANSLATOR.md
+!work/merged.txt
+!work/dbnames/
+work/dbnames/*
+!work/dbnames/TRANSLATOR.md
+!work/dbnames/glossary.md
+*.pak
+*.dll
+__pycache__/
+target/
+tools/bin/
